@@ -35,7 +35,7 @@ const Body = () => {
         </span>
       </div>
       <div>
-        <NavLink to="/veggies">Eat more veggies</NavLink>
+        <NavLink to="/veggies">Eat veggies</NavLink>
         <span role="img" aria-label="veggies">
           🥗
         </span>
