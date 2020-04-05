@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const home = () => {
+const Home = () => {
   return (
     <div className="wrapper">
       <h1>What do you want to accomplish today?</h1>
@@ -29,4 +29,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
