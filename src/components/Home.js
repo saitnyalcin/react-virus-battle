@@ -8,7 +8,7 @@ const Home = () => {
       <div className="page-mind">
         <NavLink to="/mind" style={{ color: '#FFF' }}>
           <div>
-            Nourish Mind{' '}
+            Meditate Mind{' '}
             <span role="img" aria-label="mind">
               🧠
             </span>
@@ -18,7 +18,7 @@ const Home = () => {
       <div className="page-body">
         <NavLink to="/body" style={{ color: '#FFF' }}>
           <div>
-            Nourish Body
+            Build Body
             <span role="img" aria-label="body">
               💪🏻
             </span>
