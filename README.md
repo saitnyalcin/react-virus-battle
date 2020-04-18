@@ -1,4 +1,4 @@
-## Harry Potter Api
+## Self Improvement Guide
 
 The preview of the application is given below:
 
