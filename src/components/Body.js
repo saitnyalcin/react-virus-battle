@@ -26,6 +26,7 @@ const Body = () => {
           <SkeletonComponent />
           <SkeletonComponent />
           <SkeletonComponent />
+          <SkeletonComponent />
         </div>
       ) : (
         <div className="flex-container">
