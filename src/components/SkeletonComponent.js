@@ -3,7 +3,7 @@ import Skeleton from 'react-loading-skeleton';
 
 const SkeletonComponent = () => {
   return (
-    <div class="flexi-container">
+    <div className="flexi-container">
       <div>
         <Skeleton />
       </div>
