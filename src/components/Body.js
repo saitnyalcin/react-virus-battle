@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import SkeletonComponent from './SkeletonComponent';
+import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
+import SkeletonComponent from "./SkeletonComponent";
 
 const Body = () => {
   const [visible, setVisible] = useState(true);
@@ -19,10 +19,6 @@ const Body = () => {
     <div>
       {visible ? (
         <div>
-          <SkeletonComponent />
-          <SkeletonComponent />
-          <SkeletonComponent />
-          <SkeletonComponent />
           <SkeletonComponent />
           <SkeletonComponent />
           <SkeletonComponent />

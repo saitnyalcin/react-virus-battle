@@ -1,24 +1,24 @@
-import React, { useEffect, useState } from 'react';
-import { SemipolarLoading } from 'react-loadingg';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { SemipolarLoading } from "react-loadingg";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./App.css";
 // Body components
-import Body from './components/Body';
-import Home from './components/Home';
-import Breath from './components/Breath';
-import Gratitude from './components/Gratitude';
-import Meditate from './components/Meditate';
-import Yoga from './components/Yoga';
-import Nature from './components/Nature';
-import Joy from './components/Joy';
+import Body from "./components/Body";
+import Breath from "./components/Breath";
+import Eat from "./components/Eat";
+import Gratitude from "./components/Gratitude";
+import Home from "./components/Home";
+import Hydrate from "./components/Hydrate";
+import Joy from "./components/Joy";
+import Meditate from "./components/Meditate";
 // Mind components
-import Mind from './components/Mind';
-import Move from './components/Move';
-import Eat from './components/Eat';
-import Hydrate from './components/Hydrate';
-import Tune from './components/Tune';
-import Sleep from './components/Sleep';
-import Veggies from './components/Veggies';
+import Mind from "./components/Mind";
+import Move from "./components/Move";
+import Nature from "./components/Nature";
+import Sleep from "./components/Sleep";
+import Tune from "./components/Tune";
+import Veggies from "./components/Veggies";
+import Yoga from "./components/Yoga";
 
 function App() {
   const [visible, setVisible] = useState(true);
